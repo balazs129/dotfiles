@@ -1,0 +1,13 @@
+- defaults:
+    link:
+        create: true
+        relink: true
+
+- clean: ['~', '~/.config']
+
+- link:
+    ~/.vimrc: vimrc
+    ~/.rtorrent.rc: rtorrent.rc
+    ~/.tmux.conf: tmux.conf
+    ~/.bashrc: bashrc
+    ~/.bash_aliases: bash_aliases
